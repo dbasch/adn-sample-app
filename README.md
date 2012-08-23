@@ -11,7 +11,7 @@ Find me at https://alpha.app.net/dbasch
 ## Hosting it on Heroku
 
 create app at https://alpha.app.net/developer/apps/
-for callback url use http://<appname>.heroku.com/auth/appdotnet/callback
+for callback url use http://[appname].heroku.com/auth/appdotnet/callback
 
 heroku create <appname>
 
