@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (0.8.4)
+      multipart-post (~> 1.1)
+    haml (3.1.7)
+    hashie (1.2.0)
+    httpauth (0.1)
+    jwt (0.1.5)
+      multi_json (>= 1.0)
+    multi_json (1.3.6)
+    multipart-post (1.1.5)
+    oauth2 (0.8.0)
+      faraday (~> 0.8)
+      httpauth (~> 0.1)
+      jwt (~> 0.1.4)
+      multi_json (~> 1.0)
+      rack (~> 1.2)
+    omniauth (1.1.0)
+      hashie (~> 1.2)
+      rack
+    omniauth-appdotnet (0.0.2)
+      omniauth (~> 1.0)
+      omniauth-oauth2 (~> 1.0)
+    omniauth-oauth2 (1.1.0)
+      oauth2 (~> 0.8.0)
+      omniauth (~> 1.0)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  omniauth
+  omniauth-appdotnet
+  sinatra

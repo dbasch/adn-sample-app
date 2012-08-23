@@ -1,0 +1,20 @@
+.content 
+  Welcome
+  = @user['username']
+  = surround '(', ')' do
+    also known as
+    = @user['name']
+  %p
+  Your user id is
+  = @user['id']
+  %p 
+  You have 
+  = @user['counts']['posts']
+  posts
+  %p
+  Your account was created on
+  = @user['created_at']
+  %p
+  You have posted
+  = @avg
+  times per day.
